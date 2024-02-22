@@ -142,6 +142,7 @@ We want to add a bit of challenge in our Tamagotchi's life, and check whether th
 * Add a method called `isAlive` to check if the Tamagotchi is still alive, meaning his `health` is > 0.
 * If the Tamagochi is dead, console.log the values "Oh no! [Tamagotchi's name] is dead!".
 * Call this method each time there is a change in `foodInTummy` or `restedness`.
+* Also, when `foodInTummy` and `restedness` increase, increase `health` by 1.
 
 :dart: Git add, git commit -m "part 6 added life and death of a Tamagotchi"
 
