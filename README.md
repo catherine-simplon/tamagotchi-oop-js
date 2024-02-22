@@ -119,7 +119,7 @@ We can give our constructed objects unique values by providing arguments to our 
 
 ### Part 5: Start and Stop
 
-Add in the `start` and `stop` methods to your Tamagotchi constructor:
+Add in the `start` and `stop` methods to your Tamagotchi class:
 
 - The method `start` will kick off three timers (console.log the Tamagotchi's name):
    - `hungerTimer` invokes the Tamagotchi's cry method every 6 seconds
