@@ -136,11 +136,11 @@ Make some new Tamagotchis and try running multiple of them, and turning them on 
 
 ### Part 6: Tamagotchi life and death
 
-We want to add a bit of challenge in our Tamagotchi's life, and check whether the Tamagochi is still alive or not.
+We want to add a bit of challenge in our Tamagotchi's life, and check whether the Tamagotchi is still alive or not.
 
 * Every time `foodInTummy` or `restedness` decrease, reduce `health` by 1.
 * Add a method called `isAlive` to check if the Tamagotchi is still alive, meaning his `health` is > 0.
-* If the Tamagochi is dead, console.log the values "Oh no! [Tamagotchi's name] is dead!".
+* If the Tamagotchi is dead, console.log the values "Oh no! [Tamagotchi's name] is dead!".
 * Call this method each time there is a change in `foodInTummy` or `restedness`.
 * Also, when `foodInTummy` and `restedness` increase, increase `health` by 1.
 
@@ -164,34 +164,36 @@ We want it so that our player can just click buttons on the page rather than typ
 * In addition to console.logs, have the messages appear in the div.
 
 
-## Tamagochi Extra Powers ##
+## Tamagotchi Extra Powers ##
 
 ## Part 8 ##
 
-Now that you have a working Tamagochi, it is time to supercharge its powers with OOP Heritage.
+Now that you have a working Tamagotchi, it is time to supercharge its powers with OOP Heritage.
 
-We will start by creating 2 classes `FireTamagochi` and `WaterTamagochi` in 2 separate files.
+We will start by creating 2 classes `FireTamagotchi` and `WaterTamagotchi` in 2 separate files.
 
-* The fire Tamagochis can fly and breathe fire. When flying, they get hungry and when breathing fire, they get tired.
+* The fire Tamagotchis can fly and breathe fire. When flying, they get hungry and when breathing fire, they get tired.
 Create the 2 methods `fly` and `breatheFire` accordingly and change the number of corresponding points one at a time.
 
-* The water Tamagochis can swim and jump out of water. When swimming they get tired (by 1 point) and when jumping, they may die (1 time out of 10).
+* The water Tamagotchis can swim and jump out of water. When swimming they get tired (by 1 point) and when jumping, they may die (1 time out of 10).
 Create the 2 methods `swim` and `jump` and change the points accordingly.
 
-* Also, when water Tamagochis are fed, they get an extra health point compared to the others. 
+* Also, when water Tamagotchis are fed, they get an extra health point compared to the others. 
 
 * All these methods will display an output in the console and the div.
+
+_Hint: you may need to create a Player class_
 
 Don't forget to commit your changes (and add the 2 new files!).
 
 
 ## Part 9 ## 
 
-* On the Tamagochi creation form, add a radio button to select the type of Tamagochi (default, fire or water). 
+* On the Tamagotchi creation form, add a radio button to select the type of Tamagotchi (default, fire or water). 
 
-* Add the action buttons `fly`, `breatheFire`, `swim` and `jump` and display them depending on the type of Tamagochi.
+* Add the action buttons `fly`, `breatheFire`, `swim` and `jump` and display them depending on the type of Tamagotchi.
 
-* Test and play with different Tamagochis :)
+* Test and play with different Tamagotchis :)
 
 Don't forget to commit your changes.
 
