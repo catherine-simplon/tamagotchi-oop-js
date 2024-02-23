@@ -163,12 +163,42 @@ We want it so that our player can just click buttons on the page rather than typ
 
 * In addition to console.logs, have the messages appear in the div.
 
+
+## Tamagochi Extra Powers ##
+
+## Part 8 ##
+
+Now that you have a working Tamagochi, it is time to supercharge its powers with OOP Heritage.
+
+We will start by creating 2 classes `FireTamagochi` and `WaterTamagochi` in 2 separate files.
+
+* The fire Tamagochis can fly and breathe fire. When flying, they get hungry and when breathing fire, they get tired.
+Create the 2 methods `fly` and `breatheFire` accordingly and change the number of corresponding points one at a time.
+
+* The water Tamagochis can swim and jump out of water. When swimming they get tired (by 1 point) and when jumping, they may die (1 time out of 10).
+Create the 2 methods `swim` and `jump` and change the points accordingly.
+
+* Also, when water Tamagochis are fed, they get an extra health point compared to the others. 
+
+* All these methods will display an output in the console and the div.
+
+Don't forget to commit your changes (and add the 2 new files!).
+
+
+## Part 9 ## 
+
+* On the Tamagochi creation form, add a radio button to select the type of Tamagochi (default, fire or water). 
+
+* Add the action buttons `fly`, `breatheFire`, `swim` and `jump` and display them depending on the type of Tamagochi.
+
+* Test and play with different Tamagochis :)
+
+Don't forget to commit your changes.
+
+
 ## Submitting Your Work
 
-  When you're ready to submit your work,
-
-  1. Add, commit and push your code
-  2. Submit the link of your repo to GA Grader with a comment of your comfort score for the material.
+  Add, commit and push your code
 
   <!-- 1.  Add, commit, and push your code to your fork of the class repo.
   2.  File an issue on the class repo titled "Your Name -- wXXdXX".
